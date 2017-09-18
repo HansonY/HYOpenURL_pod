@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131C6A42462A7047CD1C2CA03473FCAC /* HYOpenURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 761D4CF53A611A53FDE3EEFB6239F617 /* HYOpenURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		310F05843B88F934E19F43F1CB05C222 /* HYCmdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B10D19D900AB427A89F6FEB4C8DA0DF /* HYCmdModel.m */; };
+		38E04146A2BFFD42215A1489A66036F5 /* HYBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C33D968FCF7B98D6E67EEA1BC5BF7AED /* HYBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E8F5EEDA26177D5352AA4FEBBDD6073 /* Pods-HYOpenURL_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A08F19E32DBC76E3BE79F37BCACED02 /* Pods-HYOpenURL_Tests-dummy.m */; };
+		4740B76C6A674669BB8964DA2D59DA61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4A1EFAF5BA02E1C81B92EEE98AEC9132 /* HYOpenURLService.h in Headers */ = {isa = PBXBuildFile; fileRef = AA507682358C4B3D00C8957C9C4CE994 /* HYOpenURLService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B5ECA9FC72345FD6AB5FD4D79FAACC /* Pods-HYOpenURL_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01035E3FCC83FB10E7AFC5289938EADF /* Pods-HYOpenURL_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57BF7EE14B6AA8FB705D2B49B0F7DC78 /* HYOpenURL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0473DA76D34B951BF0B8CD73E1651 /* HYOpenURL-dummy.m */; };
+		897F6D0C14B57D9036D971011CBB02C2 /* NSMutableDictionary+checkNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3C0F7DF6A5AC2E69D496F49490745A /* NSMutableDictionary+checkNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91B52F0206D0A4C6FC70647BB9D22F4D /* HYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0788175BC81AEBF860BE4B6D58E84400 /* HYBaseViewController.m */; };
+		A6DDDA3FA5170553E59A9F101DA74BFE /* HYOpenURLService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1259A7D002AE84B9B14F309EF256F296 /* HYOpenURLService.m */; };
+		A7E493B7C4FCC5261D7651E9F58D7AB4 /* HYBaseWebController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DA482A6DFEE6F9A12742C4756779AF4 /* HYBaseWebController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF9C433BEA64326DA9714CD88D0EF449 /* NSMutableDictionary+checkNil.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB14C1E9A70C08CF8C607ACFAFED24 /* NSMutableDictionary+checkNil.m */; };
+		BFDF83D75558E0223B1A3BCB87CC3E1D /* Pods-HYOpenURL_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FB0D8D6A2BCF6625C3DC8428940E6E9 /* Pods-HYOpenURL_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C434BA4D572D4BFB06C776FE873D1919 /* Pods-HYOpenURL_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1573D4826F7721E9582A52CBCD1044 /* Pods-HYOpenURL_Example-dummy.m */; };
+		E31F9C09CC29F75BE39307DDEE9EFF5E /* HYOpenURL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B878CFF6BA4CE6C1182BE14358E19EA /* HYOpenURL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC1A9CDB12F50180DA50B9656D268EC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F9C0C403937A9E802BC169FDDDC6F363 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FA02D279CD802DEF0F96E9336558C075 /* HYBaseWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932E811C0A6D43CC18F280D44CC404B4 /* HYBaseWebController.m */; };
+		FD250E865E796A58ADD06976B6F296DE /* HYCmdModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF42D47734D84CF127FA0C88143DFE2 /* HYCmdModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70A54441BDCB4355D7D2185A0A104793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 017F71E023F4FB10122FD28107AEF20E;
+			remoteInfo = HYOpenURL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01035E3FCC83FB10E7AFC5289938EADF /* Pods-HYOpenURL_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYOpenURL_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0207208054E119C965832AD7C25F8402 /* Pods-HYOpenURL_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYOpenURL_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0788175BC81AEBF860BE4B6D58E84400 /* HYBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYBaseViewController.m; path = HYOpenURL/Classes/HYBaseViewController.m; sourceTree = "<group>"; };
+		0B10D19D900AB427A89F6FEB4C8DA0DF /* HYCmdModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYCmdModel.m; path = HYOpenURL/Classes/HYCmdModel.m; sourceTree = "<group>"; };
+		0FB0D8D6A2BCF6625C3DC8428940E6E9 /* Pods-HYOpenURL_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYOpenURL_Example-umbrella.h"; sourceTree = "<group>"; };
+		118E8659A3EA40377BFC01ABCB1D0B75 /* Pods-HYOpenURL_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYOpenURL_Example.release.xcconfig"; sourceTree = "<group>"; };
+		11ED09A2F10A86B70BAEC3275BD23783 /* Pods-HYOpenURL_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYOpenURL_Example-resources.sh"; sourceTree = "<group>"; };
+		1259A7D002AE84B9B14F309EF256F296 /* HYOpenURLService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYOpenURLService.m; path = HYOpenURL/Classes/HYOpenURLService.m; sourceTree = "<group>"; };
+		191E1C31C919766E50C5330A8950B632 /* Pods-HYOpenURL_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYOpenURL_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C05F59D7855D61161D2A5CB5851346F /* Pods-HYOpenURL_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYOpenURL_Tests-resources.sh"; sourceTree = "<group>"; };
+		1F3C0F7DF6A5AC2E69D496F49490745A /* NSMutableDictionary+checkNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+checkNil.h"; path = "HYOpenURL/Classes/NSMutableDictionary+checkNil.h"; sourceTree = "<group>"; };
+		2E1573D4826F7721E9582A52CBCD1044 /* Pods-HYOpenURL_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYOpenURL_Example-dummy.m"; sourceTree = "<group>"; };
+		40F1083366F867819D505EFB2117047D /* Pods-HYOpenURL_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYOpenURL_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		45E36D96B97BDB80E097BA48F0E06850 /* Pods-HYOpenURL_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYOpenURL_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4AF42D47734D84CF127FA0C88143DFE2 /* HYCmdModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYCmdModel.h; path = HYOpenURL/Classes/HYCmdModel.h; sourceTree = "<group>"; };
+		522EA4425B9DBD294C60934125ABBBF8 /* Pods-HYOpenURL_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYOpenURL_Example-frameworks.sh"; sourceTree = "<group>"; };
+		57FB3318FA830DEC26ABE949E140FFCC /* Pods_HYOpenURL_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYOpenURL_Example.framework; path = "Pods-HYOpenURL_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E4531AFF3A4ED88BC2930976D19B32F /* Pods-HYOpenURL_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYOpenURL_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A08F19E32DBC76E3BE79F37BCACED02 /* Pods-HYOpenURL_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYOpenURL_Tests-dummy.m"; sourceTree = "<group>"; };
+		7421F451D4C542E54FDB5B5674158599 /* Pods-HYOpenURL_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HYOpenURL_Tests.modulemap"; sourceTree = "<group>"; };
+		761D4CF53A611A53FDE3EEFB6239F617 /* HYOpenURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYOpenURL.h; path = HYOpenURL/Classes/HYOpenURL.h; sourceTree = "<group>"; };
+		7A1E544C2303FB919E3EBC5FAC2597F3 /* Pods-HYOpenURL_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HYOpenURL_Example.modulemap"; sourceTree = "<group>"; };
+		7CD0473DA76D34B951BF0B8CD73E1651 /* HYOpenURL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYOpenURL-dummy.m"; sourceTree = "<group>"; };
+		7DA482A6DFEE6F9A12742C4756779AF4 /* HYBaseWebController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYBaseWebController.h; path = HYOpenURL/Classes/HYBaseWebController.h; sourceTree = "<group>"; };
+		8453802ECB2CE67B45D769EFF5E3BD4F /* HYOpenURL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYOpenURL.framework; path = HYOpenURL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		888D1C4C1CE508B5606EF317DBB6BE28 /* HYOpenURL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYOpenURL-prefix.pch"; sourceTree = "<group>"; };
+		932E811C0A6D43CC18F280D44CC404B4 /* HYBaseWebController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYBaseWebController.m; path = HYOpenURL/Classes/HYBaseWebController.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B878CFF6BA4CE6C1182BE14358E19EA /* HYOpenURL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYOpenURL-umbrella.h"; sourceTree = "<group>"; };
+		A6D04636451D13EC0B5C4FE3D42CDC33 /* HYOpenURL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYOpenURL.xcconfig; sourceTree = "<group>"; };
+		A7A94C519C7E49BCD327B291031C798C /* Pods-HYOpenURL_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYOpenURL_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A91112E701AEF8A88AED376D14F5C253 /* Pods_HYOpenURL_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYOpenURL_Tests.framework; path = "Pods-HYOpenURL_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA507682358C4B3D00C8957C9C4CE994 /* HYOpenURLService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYOpenURLService.h; path = HYOpenURL/Classes/HYOpenURLService.h; sourceTree = "<group>"; };
+		B4EB14C1E9A70C08CF8C607ACFAFED24 /* NSMutableDictionary+checkNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+checkNil.m"; path = "HYOpenURL/Classes/NSMutableDictionary+checkNil.m"; sourceTree = "<group>"; };
+		C33D968FCF7B98D6E67EEA1BC5BF7AED /* HYBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYBaseViewController.h; path = HYOpenURL/Classes/HYBaseViewController.h; sourceTree = "<group>"; };
+		D5F1EE0ADE9C45FD82CA56584B17715F /* Pods-HYOpenURL_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYOpenURL_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBD436B6E365882E10DEBF48D38E90AE /* HYOpenURL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HYOpenURL.modulemap; sourceTree = "<group>"; };
+		DEE53B200D2979CA8DA578BD937A8A56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E56266A8C44C8FE3280340FA0F1A5BFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD5FF9B5B13D9D2AD9287D81C0A4796 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8CD65C4CB1AF25152D72A7E228CE96B /* Pods-HYOpenURL_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYOpenURL_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67494EC0F94148163A4BC93B80BA7357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4740B76C6A674669BB8964DA2D59DA61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7435A5D979FBF134A18DC6FE079F6BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C0C403937A9E802BC169FDDDC6F363 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A547C08BD63CCD5EEAC924585761B3DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1A9CDB12F50180DA50B9656D268EC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0448A426D961A11DFFFCB666A4A1C375 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E962F8792426E32A9E5D9FCF9B680D17 /* HYOpenURL */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0963DCA16D155DCCC89B08E695ADC7D9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				820D4BD72DD9308AF3E79748714EB1F1 /* Pods-HYOpenURL_Example */,
+				4C0898C4463C50FA6E76C34C5E668022 /* Pods-HYOpenURL_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4C0898C4463C50FA6E76C34C5E668022 /* Pods-HYOpenURL_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE53B200D2979CA8DA578BD937A8A56 /* Info.plist */,
+				7421F451D4C542E54FDB5B5674158599 /* Pods-HYOpenURL_Tests.modulemap */,
+				A7A94C519C7E49BCD327B291031C798C /* Pods-HYOpenURL_Tests-acknowledgements.markdown */,
+				5E4531AFF3A4ED88BC2930976D19B32F /* Pods-HYOpenURL_Tests-acknowledgements.plist */,
+				6A08F19E32DBC76E3BE79F37BCACED02 /* Pods-HYOpenURL_Tests-dummy.m */,
+				40F1083366F867819D505EFB2117047D /* Pods-HYOpenURL_Tests-frameworks.sh */,
+				1C05F59D7855D61161D2A5CB5851346F /* Pods-HYOpenURL_Tests-resources.sh */,
+				01035E3FCC83FB10E7AFC5289938EADF /* Pods-HYOpenURL_Tests-umbrella.h */,
+				D5F1EE0ADE9C45FD82CA56584B17715F /* Pods-HYOpenURL_Tests.debug.xcconfig */,
+				0207208054E119C965832AD7C25F8402 /* Pods-HYOpenURL_Tests.release.xcconfig */,
+			);
+			name = "Pods-HYOpenURL_Tests";
+			path = "Target Support Files/Pods-HYOpenURL_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0448A426D961A11DFFFCB666A4A1C375 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D9F9D26AE3E31403C4AB4135FC7E49A7 /* Products */,
+				0963DCA16D155DCCC89B08E695ADC7D9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		820D4BD72DD9308AF3E79748714EB1F1 /* Pods-HYOpenURL_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E56266A8C44C8FE3280340FA0F1A5BFF /* Info.plist */,
+				7A1E544C2303FB919E3EBC5FAC2597F3 /* Pods-HYOpenURL_Example.modulemap */,
+				45E36D96B97BDB80E097BA48F0E06850 /* Pods-HYOpenURL_Example-acknowledgements.markdown */,
+				191E1C31C919766E50C5330A8950B632 /* Pods-HYOpenURL_Example-acknowledgements.plist */,
+				2E1573D4826F7721E9582A52CBCD1044 /* Pods-HYOpenURL_Example-dummy.m */,
+				522EA4425B9DBD294C60934125ABBBF8 /* Pods-HYOpenURL_Example-frameworks.sh */,
+				11ED09A2F10A86B70BAEC3275BD23783 /* Pods-HYOpenURL_Example-resources.sh */,
+				0FB0D8D6A2BCF6625C3DC8428940E6E9 /* Pods-HYOpenURL_Example-umbrella.h */,
+				F8CD65C4CB1AF25152D72A7E228CE96B /* Pods-HYOpenURL_Example.debug.xcconfig */,
+				118E8659A3EA40377BFC01ABCB1D0B75 /* Pods-HYOpenURL_Example.release.xcconfig */,
+			);
+			name = "Pods-HYOpenURL_Example";
+			path = "Target Support Files/Pods-HYOpenURL_Example";
+			sourceTree = "<group>";
+		};
+		968415FE229F097DA6B197F75B3E22EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBD436B6E365882E10DEBF48D38E90AE /* HYOpenURL.modulemap */,
+				A6D04636451D13EC0B5C4FE3D42CDC33 /* HYOpenURL.xcconfig */,
+				7CD0473DA76D34B951BF0B8CD73E1651 /* HYOpenURL-dummy.m */,
+				888D1C4C1CE508B5606EF317DBB6BE28 /* HYOpenURL-prefix.pch */,
+				9B878CFF6BA4CE6C1182BE14358E19EA /* HYOpenURL-umbrella.h */,
+				EDD5FF9B5B13D9D2AD9287D81C0A4796 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HYOpenURL";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9F9D26AE3E31403C4AB4135FC7E49A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8453802ECB2CE67B45D769EFF5E3BD4F /* HYOpenURL.framework */,
+				57FB3318FA830DEC26ABE949E140FFCC /* Pods_HYOpenURL_Example.framework */,
+				A91112E701AEF8A88AED376D14F5C253 /* Pods_HYOpenURL_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E962F8792426E32A9E5D9FCF9B680D17 /* HYOpenURL */ = {
+			isa = PBXGroup;
+			children = (
+				C33D968FCF7B98D6E67EEA1BC5BF7AED /* HYBaseViewController.h */,
+				0788175BC81AEBF860BE4B6D58E84400 /* HYBaseViewController.m */,
+				7DA482A6DFEE6F9A12742C4756779AF4 /* HYBaseWebController.h */,
+				932E811C0A6D43CC18F280D44CC404B4 /* HYBaseWebController.m */,
+				4AF42D47734D84CF127FA0C88143DFE2 /* HYCmdModel.h */,
+				0B10D19D900AB427A89F6FEB4C8DA0DF /* HYCmdModel.m */,
+				761D4CF53A611A53FDE3EEFB6239F617 /* HYOpenURL.h */,
+				AA507682358C4B3D00C8957C9C4CE994 /* HYOpenURLService.h */,
+				1259A7D002AE84B9B14F309EF256F296 /* HYOpenURLService.m */,
+				1F3C0F7DF6A5AC2E69D496F49490745A /* NSMutableDictionary+checkNil.h */,
+				B4EB14C1E9A70C08CF8C607ACFAFED24 /* NSMutableDictionary+checkNil.m */,
+				968415FE229F097DA6B197F75B3E22EE /* Support Files */,
+			);
+			name = HYOpenURL;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08993ADE681CFFC2AD959390270D9BF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E04146A2BFFD42215A1489A66036F5 /* HYBaseViewController.h in Headers */,
+				A7E493B7C4FCC5261D7651E9F58D7AB4 /* HYBaseWebController.h in Headers */,
+				FD250E865E796A58ADD06976B6F296DE /* HYCmdModel.h in Headers */,
+				E31F9C09CC29F75BE39307DDEE9EFF5E /* HYOpenURL-umbrella.h in Headers */,
+				131C6A42462A7047CD1C2CA03473FCAC /* HYOpenURL.h in Headers */,
+				4A1EFAF5BA02E1C81B92EEE98AEC9132 /* HYOpenURLService.h in Headers */,
+				897F6D0C14B57D9036D971011CBB02C2 /* NSMutableDictionary+checkNil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599C2042E2E0BDD9154FEA5B52356271 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDF83D75558E0223B1A3BCB87CC3E1D /* Pods-HYOpenURL_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B758F1F610D099AB8867F4B9E67B5888 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B5ECA9FC72345FD6AB5FD4D79FAACC /* Pods-HYOpenURL_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		017F71E023F4FB10122FD28107AEF20E /* HYOpenURL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314A07EFA90CDAE6B9F8095AA5243B17 /* Build configuration list for PBXNativeTarget "HYOpenURL" */;
+			buildPhases = (
+				D5C45C51C3D3D7358952FBF53A1AE495 /* Sources */,
+				A547C08BD63CCD5EEAC924585761B3DF /* Frameworks */,
+				08993ADE681CFFC2AD959390270D9BF5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYOpenURL;
+			productName = HYOpenURL;
+			productReference = 8453802ECB2CE67B45D769EFF5E3BD4F /* HYOpenURL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99114E8CDD97704C73C6730F2AF36409 /* Pods-HYOpenURL_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97ED8EF0DDC689B7F2CFE29096B840E /* Build configuration list for PBXNativeTarget "Pods-HYOpenURL_Example" */;
+			buildPhases = (
+				BF3CAF223C18C3860B6D3BC2E328F80C /* Sources */,
+				7435A5D979FBF134A18DC6FE079F6BB5 /* Frameworks */,
+				599C2042E2E0BDD9154FEA5B52356271 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68F6073FFB1E33364BC7AECDFE61E320 /* PBXTargetDependency */,
+			);
+			name = "Pods-HYOpenURL_Example";
+			productName = "Pods-HYOpenURL_Example";
+			productReference = 57FB3318FA830DEC26ABE949E140FFCC /* Pods_HYOpenURL_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7CC0CFC2EEAC9767812AA27502F9FC3 /* Pods-HYOpenURL_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3128BAE397BD3D02684FE66C960FAF35 /* Build configuration list for PBXNativeTarget "Pods-HYOpenURL_Tests" */;
+			buildPhases = (
+				B1FABF4834583CDFDD71A31B8CDCEB31 /* Sources */,
+				67494EC0F94148163A4BC93B80BA7357 /* Frameworks */,
+				B758F1F610D099AB8867F4B9E67B5888 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HYOpenURL_Tests";
+			productName = "Pods-HYOpenURL_Tests";
+			productReference = A91112E701AEF8A88AED376D14F5C253 /* Pods_HYOpenURL_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D9F9D26AE3E31403C4AB4135FC7E49A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				017F71E023F4FB10122FD28107AEF20E /* HYOpenURL */,
+				99114E8CDD97704C73C6730F2AF36409 /* Pods-HYOpenURL_Example */,
+				C7CC0CFC2EEAC9767812AA27502F9FC3 /* Pods-HYOpenURL_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1FABF4834583CDFDD71A31B8CDCEB31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8F5EEDA26177D5352AA4FEBBDD6073 /* Pods-HYOpenURL_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3CAF223C18C3860B6D3BC2E328F80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C434BA4D572D4BFB06C776FE873D1919 /* Pods-HYOpenURL_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C45C51C3D3D7358952FBF53A1AE495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B52F0206D0A4C6FC70647BB9D22F4D /* HYBaseViewController.m in Sources */,
+				FA02D279CD802DEF0F96E9336558C075 /* HYBaseWebController.m in Sources */,
+				310F05843B88F934E19F43F1CB05C222 /* HYCmdModel.m in Sources */,
+				57BF7EE14B6AA8FB705D2B49B0F7DC78 /* HYOpenURL-dummy.m in Sources */,
+				A6DDDA3FA5170553E59A9F101DA74BFE /* HYOpenURLService.m in Sources */,
+				AF9C433BEA64326DA9714CD88D0EF449 /* NSMutableDictionary+checkNil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68F6073FFB1E33364BC7AECDFE61E320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HYOpenURL;
+			target = 017F71E023F4FB10122FD28107AEF20E /* HYOpenURL */;
+			targetProxy = 70A54441BDCB4355D7D2185A0A104793 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D6F7F70FD53B4FD75AC16100A21A244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118E8659A3EA40377BFC01ABCB1D0B75 /* Pods-HYOpenURL_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HYOpenURL_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYOpenURL_Example/Pods-HYOpenURL_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HYOpenURL_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C9B9A7DFADA1F897E78CAB602795016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D04636451D13EC0B5C4FE3D42CDC33 /* HYOpenURL.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HYOpenURL/HYOpenURL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYOpenURL/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYOpenURL/HYOpenURL.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HYOpenURL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D128502ED8949E2D668497D70CD8B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F1EE0ADE9C45FD82CA56584B17715F /* Pods-HYOpenURL_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HYOpenURL_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYOpenURL_Tests/Pods-HYOpenURL_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HYOpenURL_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F52534FF5EAF6FBB5BD80359C70587B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D04636451D13EC0B5C4FE3D42CDC33 /* HYOpenURL.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HYOpenURL/HYOpenURL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYOpenURL/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYOpenURL/HYOpenURL.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HYOpenURL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C416B05CE873A6799841B031EFA69440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0207208054E119C965832AD7C25F8402 /* Pods-HYOpenURL_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HYOpenURL_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYOpenURL_Tests/Pods-HYOpenURL_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HYOpenURL_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4B007999B91AADB46369FB002C0237B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8CD65C4CB1AF25152D72A7E228CE96B /* Pods-HYOpenURL_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HYOpenURL_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYOpenURL_Example/Pods-HYOpenURL_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HYOpenURL_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3128BAE397BD3D02684FE66C960FAF35 /* Build configuration list for PBXNativeTarget "Pods-HYOpenURL_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D128502ED8949E2D668497D70CD8B42 /* Debug */,
+				C416B05CE873A6799841B031EFA69440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314A07EFA90CDAE6B9F8095AA5243B17 /* Build configuration list for PBXNativeTarget "HYOpenURL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F52534FF5EAF6FBB5BD80359C70587B /* Debug */,
+				5C9B9A7DFADA1F897E78CAB602795016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97ED8EF0DDC689B7F2CFE29096B840E /* Build configuration list for PBXNativeTarget "Pods-HYOpenURL_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B007999B91AADB46369FB002C0237B /* Debug */,
+				3D6F7F70FD53B4FD75AC16100A21A244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

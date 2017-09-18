@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HYOpenURL_Example' do
+  pod 'HYOpenURL', :path => '../'
+
+  target 'HYOpenURL_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

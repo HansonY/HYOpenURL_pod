@@ -1,0 +1,6 @@
+framework module Pods_HYOpenURL_Example {
+  umbrella header "Pods-HYOpenURL_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

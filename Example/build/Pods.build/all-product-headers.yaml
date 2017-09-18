@@ -1,0 +1,63 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Downloads/HYOpenURL_Pod-master/Example/build/Debug-iphonesimulator/HYOpenURL/HYOpenURL.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "HYBaseViewController.h",
+          'external-contents': "/Users/apple/Downloads/HYOpenURL_Pod-master/HYOpenURL/Classes/HYBaseViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "HYBaseWebController.h",
+          'external-contents': "/Users/apple/Downloads/HYOpenURL_Pod-master/HYOpenURL/Classes/HYBaseWebController.h"
+        },
+        {
+          'type': 'file',
+          'name': "HYCmdModel.h",
+          'external-contents': "/Users/apple/Downloads/HYOpenURL_Pod-master/HYOpenURL/Classes/HYCmdModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "HYOpenURL-Swift.h",
+          'external-contents': "/Users/apple/Downloads/HYOpenURL_Pod-master/Example/build/Debug-iphonesimulator/HYOpenURL/HYOpenURL.framework/Headers/HYOpenURL-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "HYOpenURL-umbrella.h",
+          'external-contents': "/Users/apple/Downloads/HYOpenURL_Pod-master/Example/Pods/Target Support Files/HYOpenURL/HYOpenURL-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "HYOpenURL.h",
+          'external-contents': "/Users/apple/Downloads/HYOpenURL_Pod-master/HYOpenURL/Classes/HYOpenURL.h"
+        },
+        {
+          'type': 'file',
+          'name': "HYOpenURLService.h",
+          'external-contents': "/Users/apple/Downloads/HYOpenURL_Pod-master/HYOpenURL/Classes/HYOpenURLService.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSMutableDictionary+checkNil.h",
+          'external-contents': "/Users/apple/Downloads/HYOpenURL_Pod-master/HYOpenURL/Classes/NSMutableDictionary+checkNil.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Downloads/HYOpenURL_Pod-master/Example/build/Debug-iphonesimulator/HYOpenURL/HYOpenURL.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/apple/Downloads/HYOpenURL_Pod-master/Example/build/Pods.build/Debug-iphonesimulator/HYOpenURL.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

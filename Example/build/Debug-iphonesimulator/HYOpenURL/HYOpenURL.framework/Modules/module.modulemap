@@ -1,0 +1,6 @@
+framework module HYOpenURL {
+  umbrella header "HYOpenURL-umbrella.h"
+
+  export *
+  module * { export * }
+}

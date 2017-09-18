@@ -1,0 +1,16 @@
+PODS:
+  - HYOpenURL (0.1.0)
+
+DEPENDENCIES:
+  - HYOpenURL (from `../`)
+
+EXTERNAL SOURCES:
+  HYOpenURL:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HYOpenURL: b64f97f4b83239f785b50b2e63af8931ed362040
+
+PODFILE CHECKSUM: cf5f2aa7cbf6b80e525ecf2514eb1d5a46ae3fcf
+
+COCOAPODS: 1.3.1
